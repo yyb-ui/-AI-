@@ -1,0 +1,25 @@
+# 核心科学计算
+numpy>=1.22,<2.0
+pandas>=1.5
+scipy>=1.9
+
+# 机器学习
+scikit-learn>=1.2
+scikit-image>=0.20
+shap>=0.42
+xgboost>=1.7
+lightgbm>=3.3
+
+# 深度学习
+tensorflow>=2.12
+
+# 图像处理
+opencv-python>=4.7
+Pillow>=9.5
+
+# 可视化
+matplotlib>=3.7
+seaborn>=0.12
+
+# GUI
+# tkinter (Python内置，无需安装)

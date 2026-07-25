@@ -1,0 +1,964 @@
+============================================================
+GUI启动开始 2026-07-24 13:30:24
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 2.4.6
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+============================================================
+GUI启动开始 2026-07-24 13:43:54
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✗ visualization: cannot import name 'calibration_curve' from 'sklearn.metrics' (C:\Users\lenovo\anaconda3\envs\radiomics\Lib\site-packages\sklearn\metrics\__init__.py)
+    完整堆栈如下:
+    | Traceback (most recent call last):
+    |   File "C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\run_gui.py", line 86, in <module>
+    |     __import__(name)
+    |   File "C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\visualization.py", line 7, in <module>
+    |     from sklearn.metrics import (roc_curve, auc, confusion_matrix, ConfusionMatrixDisplay,
+    | ImportError: cannot import name 'calibration_curve' from 'sklearn.metrics' (C:\Users\lenovo\anaconda3\envs\radiomics\Lib\site-packages\sklearn\metrics\__init__.py)
+    -----
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+============================================================
+GUI启动开始 2026-07-24 13:45:27
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✗ visualization: cannot import name 'calibration_curve' from 'sklearn.metrics' (C:\Users\lenovo\anaconda3\envs\radiomics\Lib\site-packages\sklearn\metrics\__init__.py)
+    完整堆栈如下:
+    | Traceback (most recent call last):
+    |   File "C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\run_gui.py", line 86, in <module>
+    |     __import__(name)
+    |   File "C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\visualization.py", line 7, in <module>
+    |     from sklearn.metrics import (roc_curve, auc, confusion_matrix, ConfusionMatrixDisplay,
+    | ImportError: cannot import name 'calibration_curve' from 'sklearn.metrics' (C:\Users\lenovo\anaconda3\envs\radiomics\Lib\site-packages\sklearn\metrics\__init__.py)
+    -----
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-24 13:49:49
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✗ visualization: name 'top_n' is not defined
+    完整堆栈如下:
+    | Traceback (most recent call last):
+    |   File "C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\run_gui.py", line 86, in <module>
+    |     __import__(name)
+    |   File "C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\visualization.py", line 133, in <module>
+    |     def plot_feature_importance(model, X, y, top_n=15, title=f"前{top_n}特征重要性(Permutation)"):
+    |                                                                   ^^^^^
+    | NameError: name 'top_n' is not defined
+    -----
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+============================================================
+GUI启动开始 2026-07-24 13:56:03
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-24 13:59:20
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+============================================================
+GUI启动开始 2026-07-24 14:03:55
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+============================================================
+GUI启动开始 2026-07-24 14:14:34
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+============================================================
+GUI启动开始 2026-07-24 14:27:17
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-24 15:15:19
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-24 15:22:54
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-24 15:30:13
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+============================================================
+GUI启动开始 2026-07-24 15:41:09
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-24 16:07:37
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+============================================================
+GUI启动开始 2026-07-24 16:12:33
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-24 16:17:43
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+============================================================
+GUI启动开始 2026-07-24 16:41:18
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-24 16:46:15
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+============================================================
+GUI启动开始 2026-07-24 16:46:15
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ classification_model
+  ✓ visualization
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-24 18:12:38
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-24 19:15:52
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+============================================================
+GUI启动开始 2026-07-24 19:39:05
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-24 20:02:41
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-24 20:06:37
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-24 20:08:54
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-24 20:26:34
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-25 08:55:15
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+============================================================
+GUI启动开始 2026-07-25 09:01:32
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-25 15:55:47
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
+============================================================
+GUI启动开始 2026-07-25 16:30:30
+Python 可执行文件: C:\Users\lenovo\anaconda3\envs\radiomics\python.exe
+Python 版本: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:27:10) [MSC v.1944 64 bit (AMD64)]
+工作目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+脚本目录: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app
+============================================================
+
+[1/5] 导入 Tkinter...
+  ✓ Tkinter OK
+
+[2/5] 导入核心依赖 (numpy/PIL)...
+  ✓ numpy 1.26.4
+  ✓ Pillow OK
+
+[3/5] 导入项目模块...
+  ✓ config
+  ✓ data_loader
+  ✓ feature_extractor
+  ✓ classification_model
+  ✓ visualization
+  ✓ detection_model
+
+[4/5] 导入 gui_app 模块...
+  ✓ gui_app OK
+
+[5/5] 启动 GUI 主窗口...
+  (图形界面应该弹出在桌面上了)
+  ✓ BreastCancerApp 实例创建成功，进入 mainloop()
+  ✓ GUI 正常退出
+
+✅ 程序结束
+日志文件: C:\Users\lenovo\Desktop\2026暑期卓工平台\practice\breast_cancer_app\gui_startup_log.txt
