@@ -28,7 +28,7 @@
 ---
 
 ## 项目结构与各文件作用
-
+```text
 practice/                              # ========== 【GitHub 仓库根目录】 ==========
 ├── breast_cancer_app/                 # ✅ 【软件核心】桌面程序代码（和 practice_data 同级分开上传）
 │   ├── gui_app.py                     # 🖥️ 主界面 (Tkinter GUI，约4000行)
@@ -97,7 +97,7 @@ practice/                              # ========== 【GitHub 仓库根目录】
     └── BUS-UCLM/                      #    BUS-UCLM 公开乳腺超声数据集
         ├── images/                    #       超声图像文件
         └── INFO.csv                   #       患者ID + 标签 + 元信息 CSV
-
+```
 ---
 
 ## 整体思路与诊断流水线
